@@ -1,0 +1,13 @@
+{
+  "name": "mitigation_cap21_a33e61_1-halfled-hire-hiprice",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [[2029, 328.159373711334]]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [[2029, 129.062656593544]]
+    }
+  ]
+}

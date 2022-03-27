@@ -1,0 +1,13 @@
+{
+  "name": "mitigation_cap21_a33e61_1_hiprice",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [[2029, 304.292785284284]]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [[2029, 531.597313015615]]
+    }
+  ]
+}

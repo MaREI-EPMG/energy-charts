@@ -1,0 +1,16 @@
+{
+  "name": "mitigation_cap21_a33e61_1-hire",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [
+        [2028, 347.634495796249],
+        [2029, 328.159373711333]
+      ]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [[2029, 757.196373953604]]
+    }
+  ]
+}

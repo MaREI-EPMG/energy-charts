@@ -1,0 +1,13 @@
+{
+  "name": "mitigation_cap21_a33e61_1_vhing_hire_halfled",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [[2029, 567.390236725306]]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [[2029, 134.051164102907]]
+    }
+  ]
+}

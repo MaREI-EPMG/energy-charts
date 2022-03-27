@@ -1,0 +1,16 @@
+{
+  "name": "mitigation_cap21_a33e61_1",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [
+        [2028, 155.870174205995],
+        [2029, 377.848565134462]
+      ]
+    },
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [[2029, 572.531018909287]]
+    }
+  ]
+}

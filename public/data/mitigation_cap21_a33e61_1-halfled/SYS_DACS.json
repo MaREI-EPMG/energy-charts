@@ -1,0 +1,13 @@
+{
+  "name": "mitigation_cap21_a33e61_1-halfled",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [[2029, 328.159373711333]]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [[2029, 201.831230281898]]
+    }
+  ]
+}

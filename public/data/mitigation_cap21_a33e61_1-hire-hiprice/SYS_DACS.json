@@ -1,0 +1,16 @@
+{
+  "name": "mitigation_cap21_a33e61_1-hire-hiprice",
+  "data": [
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [
+        [2028, 329.463963995126],
+        [2029, 328.159373711333]
+      ]
+    },
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [[2029, 730.543519421363]]
+    }
+  ]
+}

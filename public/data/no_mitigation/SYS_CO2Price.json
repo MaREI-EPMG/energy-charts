@@ -1,0 +1,9 @@
+{
+  "name": "no_mitigation",
+  "data": [
+    {
+      "seriesName": "ENV-CO2",
+      "seriesValues": [[2020, 0.0393703254440363]]
+    }
+  ]
+}
