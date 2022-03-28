@@ -8,23 +8,67 @@ const PageNotFound = React.lazy(() => import("./components/NotFound"));
 const config = {
   scenarios: [
     {
-      name: "Scenario 1",
-      variants: [{ name: "Scenario 1", specs: null }]
+      name: "mitigation_a33e61_1_halfled-hire",
+      variants: [{ name: "mitigation_a33e61_1_halfled-hire", specs: null }]
     },
     {
-      name: "Scenario 2",
-      variants: [{ name: "Scenario 2", specs: null }]
+      name: "mitigation_cap21_a33e61_1",
+      variants: [{ name: "mitigation_cap21_a33e61_1", specs: null }]
     },
     {
-      name: "Scenario 3",
-      variants: [{ name: "Scenario 3", specs: null }]
+      name: "mitigation_cap21_a33e61_1_hiprice",
+      variants: [{ name: "mitigation_cap21_a33e61_1_hiprice", specs: null }]
     },
     {
-      name: "Scenario 4",
-      variants: [{ name: "Scenario 4", specs: null }]
+      name: "mitigation_cap21_a33e61_1_hiprice_led",
+      variants: [{ name: "mitigation_cap21_a33e61_1_hiprice_led", specs: null }]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1_vhing_hire_halfled",
+      variants: [
+        { name: "mitigation_cap21_a33e61_1_vhing_hire_halfled", specs: null }
+      ]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1-halfled",
+      variants: [{ name: "mitigation_cap21_a33e61_1-halfled", specs: null }]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1-halfled-hire-hiprice",
+      variants: [
+        { name: "mitigation_cap21_a33e61_1-halfled-hire-hiprice", specs: null }
+      ]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1-hiprice",
+      variants: [{ name: "mitigation_cap21_a33e61_1-hiprice", specs: null }]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1-hiprice-halfled",
+      variants: [
+        { name: "mitigation_cap21_a33e61_1-hiprice-halfled", specs: null }
+      ]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1-hire",
+      variants: [{ name: "mitigation_cap21_a33e61_1-hire", specs: null }]
+    },
+    {
+      name: "mitigation_cap21_a33e61_1-hire-hiprice",
+      variants: [
+        { name: "mitigation_cap21_a33e61_1-hire-hiprice", specs: null }
+      ]
+    },
+    {
+      name: "no_mitigation",
+      variants: [{ name: "no_mitigation", specs: null }]
+    },
+    {
+      name: "no_mitigation_1_hiprice",
+      variants: [{ name: "no_mitigation_1_hiprice", specs: null }]
     }
   ],
-  defaultScenarioGroup: "Scenario 1",
+  defaultScenarioGroup: "mitigation_cap21_a33e61_1_hiprice",
   routes: [
     {
       path: "/about",
