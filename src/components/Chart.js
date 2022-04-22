@@ -69,13 +69,6 @@ function Chart(props) {
     cache
   );
 
-  mainScenarioData = normaliseData(
-    mainScenarioData,
-    selectedScenarios[0],
-    seriesNames,
-    xPeriods
-  );
-
   if (!mainScenarioDataLoading) {
     mainScenarioData = normaliseData(
       mainScenarioData,
