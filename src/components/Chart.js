@@ -175,7 +175,8 @@ function Chart(props) {
                           data: {
                             fill: colorScale[
                               seriesNames.indexOf(series.seriesName)
-                            ]
+                            ],
+                            opacity: (scenario.name === chartData[0].name) ? 1.0 : 0.7
                           }
                         }}
                       />
