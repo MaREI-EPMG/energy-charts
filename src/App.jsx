@@ -1,10 +1,44 @@
-import React, { useRef, Suspense } from "react";
+import React, { useState, useRef, useEffect, Suspense } from "react";
 import { Routes, Route, Navigate, useSearchParams } from "react-router-dom";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { Layout } from "./containers";
 import { PageLoading, ChartsPage, Charts, Page } from "./components";
 
 function App({ config }) {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const showSearchParams = config.showSearchParams;
+
+  const scenarioGroups = config.scenarios.map(
+    (scenarioGroup) => scenarioGroup.name
+  );
+
+  const defaultScenarioGroup = config.defaultScenarioGroup
+    ? scenarioGroups.includes(config.defaultScenarioGroup)
+      ? config.defaultScenarioGroup
+      : scenarioGroups[0]
+    : scenarioGroups[0];
+
+  const loadMainScenario = searchParams.get("scen1")
+    ? scenarioGroups.includes(searchParams.get("scen1"))
+      ? searchParams.get("scen1")
+      : defaultScenarioGroup
+    : defaultScenarioGroup;
+
+  const loadCompareScenario = searchParams.get("scen2")
+    ? scenarioGroups.includes(searchParams.get("scen2"))
+      ? searchParams.get("scen2")
+      : null
+    : null;
+
+  const loadShowDifference = searchParams.get("diff")
+    ? !!(
+        searchParams.get("diff").toLowerCase() === "true" && loadCompareScenario
+      )
+    : false;
+
+  const [mainScenario, setMainScenario] = useState(loadMainScenario);
+  const [compareScenario, setCompareScenario] = useState(loadCompareScenario);
+  const [showDifference, setShowDifference] = useState(loadShowDifference);
 
   const cache = useRef({});
 
@@ -18,9 +52,26 @@ function App({ config }) {
     scenarioTitles: config.titles.scenarios,
     seriesTitles: config.titles.series
   };
-  
-  const [searchParams, ] = useSearchParams();
-  const addSearchParams = (path) => `${path}?${searchParams.toString()}`;
+
+  useEffect(() => {
+    if (!compareScenario) {
+      setShowDifference(false);
+    }
+
+    showSearchParams
+      ? setSearchParams({
+          "scen1": mainScenario,
+          "scen2": compareScenario,
+          "diff": showDifference
+        })
+      : setSearchParams();
+  }, [
+    mainScenario,
+    compareScenario,
+    showDifference,
+    setSearchParams,
+    showSearchParams
+  ]);
 
   return (
     <Suspense fallback={<PageLoading />}>
@@ -48,12 +99,17 @@ function App({ config }) {
             element={
               <ChartsPage
                 {...config}
+                selectedScenarios={[mainScenario, compareScenario]}
+                showDifference={showDifference}
+                setMainScenario={setMainScenario}
+                setCompareScenario={setCompareScenario}
+                setShowDifference={setShowDifference}
               />
             }
           >
             <Route
               index
-              element={<Navigate to={addSearchParams(config.routes[0].path)} replace={true} />}
+              element={<Navigate to={config.routes[0].path} replace={true} />}
             />
             {config.routes.map((route, idx) => (
               <Route
@@ -62,11 +118,12 @@ function App({ config }) {
                 element={
                   route.charts && (
                     <Charts
+                      selectedScenarios={[mainScenario, compareScenario]}
+                      showDifference={showDifference}
                       basePath={config.basePath}
                       charts={route.charts}
                       chartsInfo={config.chartsInfo}
                       cache={cache}
-                      defaultScenario={config.defaultScenarioGroup}
                       xDomainPadding={config.xDomainPadding}
                       xGridValues={config.xGridValues}
                       xGridMarks={config.xGridMarks}
@@ -86,7 +143,7 @@ function App({ config }) {
                     <Route
                       index
                       element={
-                        <Navigate to={addSearchParams(route.routes[0].path)} replace={true} />
+                        <Navigate to={route.routes[0].path} replace={true} />
                       }
                     />
                     {route.routes.map((route, idx) => (
@@ -96,11 +153,15 @@ function App({ config }) {
                         element={
                           route.charts && (
                             <Charts
+                              selectedScenarios={[
+                                mainScenario,
+                                compareScenario
+                              ]}
+                              showDifference={showDifference}
                               basePath={config.basePath}
                               charts={route.charts}
                               chartsInfo={config.chartsInfo}
                               cache={cache}
-                              defaultScenario={config.defaultScenarioGroup}
                               xDomainPadding={config.xDomainPadding}
                               xGridValues={config.xGridValues}
                               xGridMarks={config.xGridMarks}

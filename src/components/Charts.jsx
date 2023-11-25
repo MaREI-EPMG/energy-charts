@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import { Chart, ChartLegend } from "../components";
-import { useSearchParams } from "react-router-dom";
 
 function Charts(props) {
   const {
@@ -10,18 +9,8 @@ function Charts(props) {
     chartsTitles,
     seriesTitles,
     chartWidth,
-    chartWidthScaling = 1,
-    defaultScenario
+    chartWidthScaling = 1
   } = props;
-
-  const [searchParams, ] = useSearchParams();
-  const rawCompareScenario = searchParams.get('c');
-  const compareScenario = (rawCompareScenario === 'none' ? null : (rawCompareScenario || null));
-  const selectedScenarios = [
-    searchParams.get('s') || defaultScenario,
-    compareScenario
-    ];
-  const showDifference = searchParams.get('d') === "1";
 
   return (
     <Row
@@ -40,8 +29,6 @@ function Charts(props) {
                   chartName={chart}
                   {...props}
                   {...chartsInfo[chart]}
-                  selectedScenarios={selectedScenarios}
-                  showDifference={showDifference}
                   chartWidth={chartWidth}
                   widthScaling={chartWidthScaling}
                 />

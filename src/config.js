@@ -8,36 +8,34 @@ const config = {
   chartsPath: "charts/*",
   demo: true,
   fixedDomain: true,
+  showSearchParams: true,
   titles: {
     charts: chartsTitles,
     series: seriesTitles,
     scenarios: scenarioTitles
   },
   scenarios: [
-    /* Note that "name" - including nested "name" in "variants" - 
-       must only contain A-Za-z0-9-_.!~*'() and NO SPACES */
     {
-      name: "Scenario1",
-      variants: [{ name: "Scenario1", specs: null }]
+      name: "Scenario 1",
+      variants: [{ name: "Scenario 1", specs: null }]
     },
     {
-      name: "Scenario2",
-      variants: [{ name: "Scenario2", specs: null }]
+      name: "Scenario 2",
+      variants: [{ name: "Scenario 2", specs: null }]
     },
     {
-      name: "Scenario3",
-      variants: [{ name: "Scenario3", specs: null }]
+      name: "Scenario 3",
+      variants: [{ name: "Scenario 3", specs: null }]
     },
     {
-      name: "Scenario4",
-      variants: [{ name: "Scenario4", specs: null }]
+      name: "Scenario 4",
+      variants: [{ name: "Scenario 4", specs: null }]
     }
   ],
-  defaultScenarioGroup: "Scenario1",
+  defaultScenarioGroup: "Scenario 1",
   landingPage: "about",
   routes: [
     {
-      /* Note that "path" must only contain A-Za-z0-9-_.!~*'()/ and NO SPACES */
       path: "group1",
       routes: [
         {
@@ -56,7 +54,7 @@ const config = {
     }
   ],
   contentNavs: [
-    { /* Note that "path" and "to" must only contain A-Za-z0-9-_.!~*'()/ and NO SPACES */
+    {
       path: "*",
       links: [
         { to: "group1", text: "Group 1" },
