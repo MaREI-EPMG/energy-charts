@@ -6,9 +6,21 @@ import scenarioTitles from "./specs/scenarioTitles";
 const config = {
   chartsInfo: chartsInfo,
   chartsPath: "charts/*",
+  
+  // dataDownload adds a link to chart cards to enable the viewer to
+  //    download the data used to make the chart
+  dataDownload: false,
+  
   demo: true,
+
+  // fixedDomain fixes the Y-axis for each chart (no auto-scaling).
+  //     You will need to provide MinY & MinY in chartsInfo
   fixedDomain: true,
-  showSearchParams: true,
+
+  // showSearchParams adds the scenario(s) and showDifference flag to
+  //    URL, for sharing links to specific charts with other people
+  showSearchParams: false,
+  
   titles: {
     charts: chartsTitles,
     series: seriesTitles,

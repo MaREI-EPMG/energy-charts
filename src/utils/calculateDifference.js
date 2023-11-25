@@ -2,7 +2,16 @@ function calculateDifference(data) {
   const diffValues = (array1, array2) => {
     let series = [];
     for (let j = 0; j < array1.length; j++) {
-      let valueDifference = array1[j][1] - array2[j][1];
+      // rounding, and zeroing negligible values, because javascript has trouble with floating-point arithmetic
+      let valueDifference = parseFloat(
+        (array1[j][1] - array2[j][1]).toPrecision(3)
+      );
+      if (
+        Math.abs(valueDifference) < Math.abs(array1[j][1]) / 1e4 &&
+        Math.abs(valueDifference) < Math.abs(array2[j][1]) / 1e4
+      ) {
+        valueDifference = 0;
+      }
       series.push([array1[j][0], valueDifference]);
     }
     return series;
