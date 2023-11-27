@@ -1,0 +1,1968 @@
+{
+  "SYS_Emissions_CO2_Domestic": {
+    "seriesNames": [
+      "AGRCO2N",
+      "INDCO2N",
+      "INDCO2P",
+      "PWRCO2N",
+      "RSDCO2",
+      "SRVCO2N",
+      "TRACO2N"
+    ],
+    "colorScale": [
+      "#ECDEB1",
+      "#A7398C",
+      "#6C104C",
+      "#E4592B",
+      "#39A838",
+      "#86AC0F",
+      "#D99C2B"
+    ],
+    "unit": "kt",
+    "maxY": 49779,
+    "minY": -6705
+  },
+  "SYS_Emissions_CO2_Domestic_Cumulative": {
+    "seriesNames": [
+      "AGRCO2N",
+      "INDCO2N",
+      "INDCO2P",
+      "PWRCO2N",
+      "RSDCO2",
+      "SRVCO2N",
+      "TRACO2N"
+    ],
+    "colorScale": [
+      "#ECDEB1",
+      "#A7398C",
+      "#6C104C",
+      "#E4592B",
+      "#39A838",
+      "#86AC0F",
+      "#D99C2B"
+    ],
+    "unit": "kt",
+    "maxY": 1242594,
+    "minY": 0
+  },
+  "AGR_FEC": {
+    "seriesNames": [
+      "AGRDST",
+      "AGRLPG",
+      "AGRGAS",
+      "AGRGEO",
+      "AGRSOL",
+      "AGRBIO",
+      "AGRELC",
+      "AGRBDL"
+    ],
+    "colorScale": [
+      "#C0A5FF",
+      "#0BC135",
+      "#D12E61",
+      "#48041D",
+      "#401D0B",
+      "#788D5E",
+      "#1E3B89",
+      "#3FA26E"
+    ],
+    "unit": "PJ",
+    "maxY": 11,
+    "minY": 0
+  },
+  "IND_Emissions-CO2": {
+    "seriesNames": [
+      "DMD_IND-CAF",
+      "DMD_IND-CON",
+      "DMD_IND-EOE",
+      "DMD_IND-FAB",
+      "DMD_IND-MAE",
+      "DMD_IND-MAP",
+      "DMD_IND-NEM",
+      "DMD_IND-OMA",
+      "DMD_IND-ONM",
+      "DMD_IND-PX4",
+      "DMD_IND-RAP",
+      "DMD_IND-TAP",
+      "DMD_IND-TEM",
+      "DMD_IND-WAP"
+    ],
+    "colorScale": [
+      "#CEB841",
+      "#6CC686",
+      "#54340E",
+      "#5DD221",
+      "#A2473B",
+      "#36469D",
+      "#947122",
+      "#701339",
+      "#C88A28",
+      "#8816E5",
+      "#777878",
+      "#C68EDB",
+      "#62F9E5",
+      "#04B026"
+    ],
+    "unit": "kt",
+    "maxY": 9620,
+    "minY": 0
+  },
+  "RSD_BLD_TYPE": {
+    "seriesNames": ["DMD_RSD-BLD-APT", "DMD_RSD-BLD-ATT", "DMD_RSD-BLD-DET"],
+    "colorScale": ["#2A6451", "#3BCE99", "#108840"],
+    "unit": "kUnits",
+    "maxY": 2575,
+    "minY": 0
+  },
+  "SRV_FEC_Service": {
+    "seriesNames": [
+      "DMD_SRV-CS_DC",
+      "DMD_SRV-PU_PLIG",
+      "SRV-CS_NRGSRV-CK",
+      "SRV-CS_NRGSRV-LIG",
+      "SRV-CS_NRGSRV-OEL",
+      "SRV-CS_NRGSRV-REF",
+      "SRV-CS_NRGSRV-WS",
+      "SRV-PU_NRGSRV-CK",
+      "SRV-PU_NRGSRV-LIG",
+      "SRV-PU_NRGSRV-OEL",
+      "SRV-PU_NRGSRV-REF",
+      "SRV-PU_NRGSRV-WS"
+    ],
+    "colorScale": [
+      "#7EC10C",
+      "#AA0E8C",
+      "#147824",
+      "#E6BF99",
+      "#F7DC36",
+      "#D2D2BC",
+      "#1F155C",
+      "#D53B1B",
+      "#1B722F",
+      "#BD9721",
+      "#43BB96",
+      "#5008CC"
+    ],
+    "unit": "PJ",
+    "maxY": 155,
+    "minY": 0
+  },
+  "TRA_FEC-TRABDL_Mode_Detailed": {
+    "seriesNames": [
+      "DMD_TRA-F-HTRUCK",
+      "DMD_TRA-F-LTRUCK",
+      "DMD_TRA-F-MTRUCK",
+      "DMD_TRA-P-BUS",
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-TAXI",
+      "DMD_TRA-R-OTH",
+      "DMD_TRA-R-TURS",
+      "DMD_TRA-P-HPT",
+      "DMD_TRA-R-NAV"
+    ],
+    "colorScale": [
+      "#628307",
+      "#D1E23C",
+      "#43B4D2",
+      "#B4D24C",
+      "#5F363A",
+      "#85CBAC",
+      "#C005E2",
+      "#277199",
+      "#E23BB8",
+      "#AB6461"
+    ],
+    "unit": "PJ",
+    "maxY": 37,
+    "minY": 0
+  },
+  "TRA_Freight_Land_Mode": {
+    "seriesNames": [
+      "DMD_TRA-F-HTRUCK",
+      "DMD_TRA-F-LTRUCK",
+      "DMD_TRA-F-MTRUCK",
+      "DMD_TRA-F-TRAIN"
+    ],
+    "colorScale": ["#628307", "#D1E23C", "#43B4D2", "#40E92E"],
+    "unit": "Btkm",
+    "maxY": 25,
+    "minY": 0
+  },
+  "TRA_F-HTRUCK_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-F-HTRUCK-ICE",
+      "DMD_TRA-F-HTRUCK-HEV",
+      "DMD_TRA-F-HTRUCK-BEV",
+      "DMD_TRA-F-HTRUCK-FCV"
+    ],
+    "colorScale": ["#D33780", "#8180EB", "#75181D", "#28058D"],
+    "unit": "kVehicles",
+    "maxY": 49,
+    "minY": 0
+  },
+  "TRA_Emissions-CO2": {
+    "seriesNames": [
+      "DMD_TRA-F-LAND",
+      "DMD_TRA-P-LAND",
+      "DMD_TRA-R-AVIDOM",
+      "DMD_TRA-R-AVIINT",
+      "DMD_TRA-R-NAV",
+      "DMD_TRA-R-OTH",
+      "DMD_TRA-R-TURS"
+    ],
+    "colorScale": [
+      "#0C5871",
+      "#F464BA",
+      "#A1ECAD",
+      "#41AED5",
+      "#AB6461",
+      "#C005E2",
+      "#277199"
+    ],
+    "unit": "kt",
+    "maxY": 15698,
+    "minY": 0
+  },
+  "TRA_F-LTRUCK_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-F-LTRUCK-ICE",
+      "DMD_TRA-F-LTRUCK-BEV",
+      "DMD_TRA-F-LTRUCK-PHEV",
+      "DMD_TRA-F-LTRUCK-HEV"
+    ],
+    "colorScale": ["#63F497", "#D83056", "#C3CEBE", "#56A1BC"],
+    "unit": "kVehicles",
+    "maxY": 506,
+    "minY": 0
+  },
+  "TRA_F-MTRUCK_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-F-MTRUCK-ICE",
+      "DMD_TRA-F-MTRUCK-HEV",
+      "DMD_TRA-F-MTRUCK-BEV",
+      "DMD_TRA-F-MTRUCK-FCV"
+    ],
+    "colorScale": ["#A38604", "#573396", "#A6DF18", "#0CD9F9"],
+    "unit": "kVehicles",
+    "maxY": 25,
+    "minY": 0
+  },
+  "TRA_Passenger_Land_Mode": {
+    "seriesNames": [
+      "DMD_TRA-P-ACTIVE",
+      "DMD_TRA-P-BUS",
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-HPT",
+      "DMD_TRA-P-LPT",
+      "DMD_TRA-P-MOT",
+      "DMD_TRA-P-TAXI"
+    ],
+    "colorScale": [
+      "#BF4776",
+      "#B4D24C",
+      "#5F363A",
+      "#E23BB8",
+      "#7E38F2",
+      "#3420FE",
+      "#85CBAC"
+    ],
+    "unit": "Bpkm",
+    "maxY": 105,
+    "minY": 0
+  },
+  "TRA_Passenger_Land_Mode-S": {
+    "seriesNames": [
+      "DMD_TRA-P-ACTIVE",
+      "DMD_TRA-P-BUS",
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-LPT",
+      "DMD_TRA-P-MOT",
+      "DMD_TRA-P-TAXI"
+    ],
+    "colorScale": [
+      "#BF4776",
+      "#B4D24C",
+      "#5F363A",
+      "#7E38F2",
+      "#3420FE",
+      "#85CBAC"
+    ],
+    "unit": "Bpkm",
+    "maxY": 21,
+    "minY": 0
+  },
+  "TRA_Passenger_Land_Mode-L": {
+    "seriesNames": [
+      "DMD_TRA-P-BUS",
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-HPT",
+      "DMD_TRA-P-TAXI"
+    ],
+    "colorScale": ["#B4D24C", "#5F363A", "#E23BB8", "#85CBAC"],
+    "unit": "Bpkm",
+    "maxY": 39,
+    "minY": 0
+  },
+  "TRA_Passenger_Land_Mode-M": {
+    "seriesNames": [
+      "DMD_TRA-P-BUS",
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-LPT",
+      "DMD_TRA-P-MOT",
+      "DMD_TRA-P-TAXI",
+      "DMD_TRA-P-ACTIVE",
+      "DMD_TRA-P-HPT"
+    ],
+    "colorScale": [
+      "#B4D24C",
+      "#5F363A",
+      "#7E38F2",
+      "#3420FE",
+      "#85CBAC",
+      "#BF4776",
+      "#E23BB8"
+    ],
+    "unit": "Bpkm",
+    "maxY": 45,
+    "minY": 0
+  },
+  "TRA_FEC-TRAETH_Mode_Detailed": {
+    "seriesNames": [
+      "DMD_TRA-P-CAR",
+      "DMD_TRA-P-MOT",
+      "DMD_TRA-P-TAXI",
+      "DMD_TRA-R-OTH",
+      "DMD_TRA-F-LTRUCK"
+    ],
+    "colorScale": ["#5F363A", "#3420FE", "#85CBAC", "#C005E2", "#D1E23C"],
+    "unit": "PJ",
+    "maxY": 19,
+    "minY": 0
+  },
+  "TRA_P-CAR_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-P-CAR-BEV",
+      "DMD_TRA-P-CAR-HEV",
+      "DMD_TRA-P-CAR-ICE",
+      "DMD_TRA-P-CAR-PHEV"
+    ],
+    "colorScale": ["#D26ECD", "#69597A", "#EF8F51", "#63955B"],
+    "unit": "kVehicles",
+    "maxY": 3276,
+    "minY": 0
+  },
+  "SYS_Cost_Type": {
+    "seriesNames": ["FIX", "INV", "VAR"],
+    "colorScale": ["#F7448D", "#14B1ED", "#63CA85"],
+    "unit": "MEUR",
+    "maxY": 45680,
+    "minY": 0
+  },
+  "SYS_FEC-LPG_Sector": {
+    "seriesNames": ["FT_AGR", "FT_IND", "FT_RSD", "FT_SRV"],
+    "colorScale": ["#ECDEB1", "#A7398C", "#39A838", "#86AC0F"],
+    "unit": "PJ",
+    "maxY": 8,
+    "minY": 0
+  },
+  "SYS_FEC-OILDST_Sector": {
+    "seriesNames": ["FT_AGR", "FT_IND", "FT_SRV", "FT_TRA"],
+    "colorScale": ["#ECDEB1", "#A7398C", "#86AC0F", "#D99C2B"],
+    "unit": "PJ",
+    "maxY": 156,
+    "minY": 0
+  },
+  "SYS_FEC_Sector": {
+    "seriesNames": ["FT_AGR", "FT_IND", "FT_RSD", "FT_SRV", "FT_TRA"],
+    "colorScale": ["#ECDEB1", "#A7398C", "#39A838", "#86AC0F", "#D99C2B"],
+    "unit": "PJ",
+    "maxY": 638,
+    "minY": 0
+  },
+  "SYS_FEC-BIOGAS_Sector": {
+    "seriesNames": ["FT_IND", "FT_SRV", "FT_TRA"],
+    "colorScale": ["#A7398C", "#86AC0F", "#D99C2B"],
+    "unit": "PJ",
+    "maxY": 29,
+    "minY": 0
+  },
+  "SYS_FEC-BIOWOOx_Sector": {
+    "seriesNames": ["FT_IND", "FT_RSD", "FT_SRV"],
+    "colorScale": ["#A7398C", "#39A838", "#86AC0F"],
+    "unit": "PJ",
+    "maxY": 27,
+    "minY": 0
+  },
+  "SYS_FEC-COA_Sector": {
+    "seriesNames": ["FT_IND", "FT_RSD", "FT_SRV"],
+    "colorScale": ["#A7398C", "#39A838", "#86AC0F"],
+    "unit": "PJ",
+    "maxY": 22,
+    "minY": 0
+  },
+  "SYS_FEC-ELCD_Sector": {
+    "seriesNames": ["FT_IND", "FT_RSD", "FT_SRV", "FT_TRA", "FT_AGR"],
+    "colorScale": ["#A7398C", "#39A838", "#86AC0F", "#D99C2B", "#ECDEB1"],
+    "unit": "PJ",
+    "maxY": 319,
+    "minY": 0
+  },
+  "SYS_FEC-GASNAT_Sector": {
+    "seriesNames": ["FT_IND", "FT_RSD", "FT_SRV", "FT_TRA", "FT_AGR"],
+    "colorScale": ["#A7398C", "#39A838", "#86AC0F", "#D99C2B", "#ECDEB1"],
+    "unit": "PJ",
+    "maxY": 259,
+    "minY": 0
+  },
+  "SYS_FEC-HFO_Sector": {
+    "seriesNames": ["FT_IND", "FT_SRV"],
+    "colorScale": ["#A7398C", "#86AC0F"],
+    "unit": "PJ",
+    "maxY": 14,
+    "minY": 0
+  },
+  "SYS_FEC-OILKER_Sector": {
+    "seriesNames": ["FT_IND", "FT_RSD", "FT_SRV", "FT_TRA"],
+    "colorScale": ["#A7398C", "#39A838", "#86AC0F", "#D99C2B"],
+    "unit": "PJ",
+    "maxY": 96,
+    "minY": 0
+  },
+  "SYS_FEC-PEAT_Sector": {
+    "seriesNames": ["FT_IND", "FT_RSD"],
+    "colorScale": ["#A7398C", "#39A838"],
+    "unit": "PJ",
+    "maxY": 8,
+    "minY": 0
+  },
+  "SYS_FEC-BIODST_Sector": {
+    "seriesNames": ["FT_RSD", "FT_TRA", "FT_IND", "FT_AGR"],
+    "colorScale": ["#39A838", "#D99C2B", "#A7398C", "#ECDEB1"],
+    "unit": "PJ",
+    "maxY": 39,
+    "minY": 0
+  },
+  "SYS_FEC-BIOETH_Sector": {
+    "seriesNames": ["FT_RSD", "FT_TRA"],
+    "colorScale": ["#39A838", "#D99C2B"],
+    "unit": "PJ",
+    "maxY": 19,
+    "minY": 0
+  },
+  "SYS_FEC-HETD_Sector": {
+    "seriesNames": ["FT_RSD", "FT_SRV"],
+    "colorScale": ["#39A838", "#86AC0F"],
+    "unit": "PJ",
+    "maxY": 4,
+    "minY": 0
+  },
+  "SYS_FEC-OILGSL_Sector": {
+    "seriesNames": ["FT_TRA"],
+    "colorScale": ["#D99C2B"],
+    "unit": "PJ",
+    "maxY": 35,
+    "minY": 0
+  },
+  "SUP_BIODST": {
+    "seriesNames": [
+      "IMPBIODST1G_S1",
+      "IMPBIODST1G_S2",
+      "SBIORDST02",
+      "SBIORDST03",
+      "SBIORDST05",
+      "SBIORDST01",
+      "SBIORDST04"
+    ],
+    "colorScale": [
+      "#7C5F04",
+      "#06D6AA",
+      "#75EE15",
+      "#B5CEAF",
+      "#A044F1",
+      "#392A26",
+      "#A069BD"
+    ],
+    "unit": "PJ",
+    "maxY": 39,
+    "minY": 0
+  },
+  "SUP_BIOETH": {
+    "seriesNames": [
+      "IMPBIOETH1G_S1",
+      "IMPBIOETH1G_S2",
+      "SBIORETH03",
+      "SBIORETH01",
+      "SBIORETH02"
+    ],
+    "colorScale": ["#2BB2C1", "#D92AD0", "#42497B", "#BEDA89", "#78B976"],
+    "unit": "PJ",
+    "maxY": 19,
+    "minY": 0
+  },
+  "IND-FAB_FEC": {
+    "seriesNames": [
+      "INDBGS",
+      "INDBIO",
+      "INDCOA",
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDHFO",
+      "INDKER",
+      "INDLPG",
+      "INDPEA",
+      "INDBDL",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#B92FD7",
+      "#451432",
+      "#FDE9B3",
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#6EE299",
+      "#ACB842",
+      "#44E806",
+      "#CECD7A",
+      "#1692D0",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 34,
+    "minY": 0
+  },
+  "IND_FEC": {
+    "seriesNames": [
+      "INDBGS",
+      "INDBIO",
+      "INDCOA",
+      "INDCOK",
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDHFO",
+      "INDKER",
+      "INDLPG",
+      "INDNWS",
+      "INDPEA",
+      "INDRWS",
+      "INDBDL",
+      "INDBKE",
+      "INDH2G"
+    ],
+    "colorScale": [
+      "#B92FD7",
+      "#451432",
+      "#FDE9B3",
+      "#CB2DB3",
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#6EE299",
+      "#ACB842",
+      "#44E806",
+      "#17AE2A",
+      "#CECD7A",
+      "#E5236B",
+      "#1692D0",
+      "#49EE2C",
+      "#A92406"
+    ],
+    "unit": "PJ",
+    "maxY": 143,
+    "minY": 0
+  },
+  "IND-ONM_FEC": {
+    "seriesNames": [
+      "INDBIO",
+      "INDCOA",
+      "INDCOK",
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDNWS",
+      "INDRWS",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE",
+      "INDH2G"
+    ],
+    "colorScale": [
+      "#451432",
+      "#FDE9B3",
+      "#CB2DB3",
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#17AE2A",
+      "#E5236B",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C",
+      "#A92406"
+    ],
+    "unit": "PJ",
+    "maxY": 25,
+    "minY": 0
+  },
+  "IND-WAP_FEC": {
+    "seriesNames": [
+      "INDBIO",
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#451432",
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 8,
+    "minY": 0
+  },
+  "IND-MAP_FEC": {
+    "seriesNames": [
+      "INDCOA",
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDHFO",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#FDE9B3",
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#6EE299",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 22,
+    "minY": 0
+  },
+  "IND-CAF_FEC": {
+    "seriesNames": [
+      "INDCOK",
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDHFO",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#CB2DB3",
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#6EE299",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 13,
+    "minY": 0
+  },
+  "IND-CON_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 6,
+    "minY": 0
+  },
+  "IND-EOE_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 16,
+    "minY": 0
+  },
+  "IND-MAE_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 2,
+    "minY": 0
+  },
+  "IND-NEM_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 2,
+    "minY": 0
+  },
+  "IND-OMA_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDHFO",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#6EE299",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 6,
+    "minY": 0
+  },
+  "IND-PX4_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 2,
+    "minY": 0
+  },
+  "IND-RAP_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 1,
+    "minY": 0
+  },
+  "IND-TAP_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBGS",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#B92FD7",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 5,
+    "minY": 0
+  },
+  "IND-TEM_FEC": {
+    "seriesNames": [
+      "INDDST",
+      "INDELC",
+      "INDGAS",
+      "INDKER",
+      "INDLPG",
+      "INDBDL",
+      "INDBKE"
+    ],
+    "colorScale": [
+      "#849272",
+      "#8E54D5",
+      "#14100E",
+      "#ACB842",
+      "#44E806",
+      "#1692D0",
+      "#49EE2C"
+    ],
+    "unit": "PJ",
+    "maxY": 0,
+    "minY": 0
+  },
+  "SYS_Cost_Sector_Cumulative": {
+    "seriesNames": [
+      "PRC_AGR",
+      "PRC_PWR",
+      "PRC_RSD",
+      "PRC_SRV",
+      "PRC_SUP",
+      "PRC_TRA",
+      "PRC_IND"
+    ],
+    "colorScale": [
+      "#ECDEB1",
+      "#E4592B",
+      "#39A838",
+      "#86AC0F",
+      "#3332D3",
+      "#D99C2B",
+      "#A7398C"
+    ],
+    "unit": "MEUR",
+    "maxY": 742324,
+    "minY": 0
+  },
+  "SYS_LumpInv_Sector_Cumulative": {
+    "seriesNames": [
+      "PRC_AGR",
+      "PRC_PWR",
+      "PRC_RSD",
+      "PRC_SRV",
+      "PRC_SUP",
+      "PRC_TRA",
+      "PRC_IND"
+    ],
+    "colorScale": [
+      "#ECDEB1",
+      "#E4592B",
+      "#39A838",
+      "#86AC0F",
+      "#3332D3",
+      "#D99C2B",
+      "#A7398C"
+    ],
+    "unit": "MEUR",
+    "maxY": 389381,
+    "minY": 0
+  },
+  "SYS_Cost_Sector": {
+    "seriesNames": [
+      "PRC_RSD",
+      "PRC_SUP",
+      "PRC_TRA",
+      "PRC_AGR",
+      "PRC_SRV",
+      "PRC_PWR",
+      "PRC_IND"
+    ],
+    "colorScale": [
+      "#39A838",
+      "#3332D3",
+      "#D99C2B",
+      "#ECDEB1",
+      "#86AC0F",
+      "#E4592B",
+      "#A7398C"
+    ],
+    "unit": "MEUR",
+    "maxY": 45680,
+    "minY": 0
+  },
+  "SYS_LumpInv_Sector": {
+    "seriesNames": [
+      "PRC_SUP",
+      "PRC_RSD",
+      "PRC_SRV",
+      "PRC_TRA",
+      "PRC_PWR",
+      "PRC_AGR",
+      "PRC_IND"
+    ],
+    "colorScale": [
+      "#3332D3",
+      "#39A838",
+      "#86AC0F",
+      "#D99C2B",
+      "#E4592B",
+      "#ECDEB1",
+      "#A7398C"
+    ],
+    "unit": "MEUR",
+    "maxY": 24293,
+    "minY": 0
+  },
+  "PWR_Cap": {
+    "seriesNames": [
+      "PWR-COA",
+      "PWR-GAS",
+      "PWR-HYD",
+      "PWR-OIL",
+      "PWR-PEA",
+      "PWR-WIN-OF",
+      "PWR-WIN-ON",
+      "PWR-SOL",
+      "PWR-BIO-CCS",
+      "PWR-OCE",
+      "PWR-GAS-CCS",
+      "PWR-H2",
+      "PWR-MSW"
+    ],
+    "colorScale": [
+      "#9B4566",
+      "#C2F5B8",
+      "#397186",
+      "#06E9AF",
+      "#8BC852",
+      "#9CDBD5",
+      "#A6EBAD",
+      "#93DA4B",
+      "#20DDE0",
+      "#449D47",
+      "#E00447",
+      "#8696E1",
+      "#FCBF65"
+    ],
+    "unit": "GW",
+    "maxY": 46,
+    "minY": 0
+  },
+  "PWR_Emissions-CO2": {
+    "seriesNames": [
+      "PWR-COA",
+      "PWR-GAS",
+      "PWR-OIL",
+      "PWR-PEA",
+      "PWR-BIO-CCS",
+      "PWR-GAS-CCS",
+      "PWR-MSW"
+    ],
+    "colorScale": [
+      "#9B4566",
+      "#C2F5B8",
+      "#06E9AF",
+      "#8BC852",
+      "#20DDE0",
+      "#E00447",
+      "#FCBF65"
+    ],
+    "unit": "kt",
+    "maxY": 21096,
+    "minY": -6729
+  },
+  "PWR_Gen-ELCC": {
+    "seriesNames": [
+      "PWR-COA",
+      "PWR-GAS",
+      "PWR-HYD",
+      "PWR-OIL",
+      "PWR-PEA",
+      "PWR-WIN-OF",
+      "PWR-WIN-ON",
+      "PWR-SOL",
+      "PWR-BIO-CCS",
+      "PWR-OCE",
+      "PWR-GAS-CCS",
+      "PWR-H2",
+      "PWR-MSW"
+    ],
+    "colorScale": [
+      "#9B4566",
+      "#C2F5B8",
+      "#397186",
+      "#06E9AF",
+      "#8BC852",
+      "#9CDBD5",
+      "#A6EBAD",
+      "#93DA4B",
+      "#20DDE0",
+      "#449D47",
+      "#E00447",
+      "#8696E1",
+      "#FCBF65"
+    ],
+    "unit": "PJ",
+    "maxY": 375,
+    "minY": 0
+  },
+  "PWR_Gen-HETC": {
+    "seriesNames": ["PWR-GAS"],
+    "colorScale": ["#C2F5B8"],
+    "unit": "PJ",
+    "maxY": 0,
+    "minY": 0
+  },
+  "RSD_FEC": {
+    "seriesNames": [
+      "RSDAHT",
+      "RSDAHT2",
+      "RSDBDL",
+      "RSDCOA",
+      "RSDELC",
+      "RSDETH",
+      "RSDGAS",
+      "RSDHET",
+      "RSDKER",
+      "RSDLPG",
+      "RSDPEA",
+      "RSDSOL",
+      "RSDWOO"
+    ],
+    "colorScale": [
+      "#6CF4EF",
+      "#B74285",
+      "#7D790A",
+      "#537FF6",
+      "#817323",
+      "#BA3772",
+      "#3A8E78",
+      "#DC496E",
+      "#B5E679",
+      "#09ECB5",
+      "#1E083C",
+      "#F99928",
+      "#B2979C"
+    ],
+    "unit": "PJ",
+    "maxY": 169,
+    "minY": 0
+  },
+  "RSD_WS-APT_FuelCons": {
+    "seriesNames": [
+      "RSDAHT",
+      "RSDAHT2",
+      "RSDCOA",
+      "RSDELC",
+      "RSDGAS",
+      "RSDLPG",
+      "RSDPEA",
+      "RSDSOL",
+      "RSDWOO",
+      "RSDHET",
+      "RSDBDL",
+      "RSDETH"
+    ],
+    "colorScale": [
+      "#6CF4EF",
+      "#B74285",
+      "#537FF6",
+      "#817323",
+      "#3A8E78",
+      "#09ECB5",
+      "#1E083C",
+      "#F99928",
+      "#B2979C",
+      "#DC496E",
+      "#7D790A",
+      "#BA3772"
+    ],
+    "unit": "PJ",
+    "maxY": 11,
+    "minY": 0
+  },
+  "RSD_WS-ATT_FuelCons": {
+    "seriesNames": [
+      "RSDAHT",
+      "RSDAHT2",
+      "RSDBDL",
+      "RSDCOA",
+      "RSDELC",
+      "RSDETH",
+      "RSDGAS",
+      "RSDHET",
+      "RSDKER",
+      "RSDLPG",
+      "RSDPEA",
+      "RSDSOL",
+      "RSDWOO"
+    ],
+    "colorScale": [
+      "#6CF4EF",
+      "#B74285",
+      "#7D790A",
+      "#537FF6",
+      "#817323",
+      "#BA3772",
+      "#3A8E78",
+      "#DC496E",
+      "#B5E679",
+      "#09ECB5",
+      "#1E083C",
+      "#F99928",
+      "#B2979C"
+    ],
+    "unit": "PJ",
+    "maxY": 47,
+    "minY": 0
+  },
+  "RSD_WS-DET_FuelCons": {
+    "seriesNames": [
+      "RSDAHT",
+      "RSDAHT2",
+      "RSDCOA",
+      "RSDELC",
+      "RSDGAS",
+      "RSDKER",
+      "RSDLPG",
+      "RSDPEA",
+      "RSDSOL",
+      "RSDWOO",
+      "RSDETH",
+      "RSDBDL",
+      "RSDHET"
+    ],
+    "colorScale": [
+      "#6CF4EF",
+      "#B74285",
+      "#537FF6",
+      "#817323",
+      "#3A8E78",
+      "#B5E679",
+      "#09ECB5",
+      "#1E083C",
+      "#F99928",
+      "#B2979C",
+      "#BA3772",
+      "#7D790A",
+      "#DC496E"
+    ],
+    "unit": "PJ",
+    "maxY": 71,
+    "minY": 0
+  },
+  "RSD_WaterSpace_FuelCons": {
+    "seriesNames": [
+      "RSDAHT",
+      "RSDAHT2",
+      "RSDBDL",
+      "RSDCOA",
+      "RSDELC",
+      "RSDETH",
+      "RSDGAS",
+      "RSDHET",
+      "RSDKER",
+      "RSDLPG",
+      "RSDPEA",
+      "RSDSOL",
+      "RSDWOO"
+    ],
+    "colorScale": [
+      "#6CF4EF",
+      "#B74285",
+      "#7D790A",
+      "#537FF6",
+      "#817323",
+      "#BA3772",
+      "#3A8E78",
+      "#DC496E",
+      "#B5E679",
+      "#09ECB5",
+      "#1E083C",
+      "#F99928",
+      "#B2979C"
+    ],
+    "unit": "PJ",
+    "maxY": 127,
+    "minY": 0
+  },
+  "RSD_OtherServices_FuelCons": {
+    "seriesNames": ["RSDELC", "RSDGAS", "RSDLPG"],
+    "colorScale": ["#817323", "#3A8E78", "#09ECB5"],
+    "unit": "PJ",
+    "maxY": 42,
+    "minY": 0
+  },
+  "RSD_Services_EnergyCons": {
+    "seriesNames": [
+      "RSD_BLD-XXX_NRGSRV-CD",
+      "RSD_BLD-XXX_NRGSRV-CK",
+      "RSD_BLD-XXX_NRGSRV-CW",
+      "RSD_BLD-XXX_NRGSRV-DW",
+      "RSD_BLD-XXX_NRGSRV-LT",
+      "RSD_BLD-XXX_NRGSRV-OE",
+      "RSD_BLD-XXX_NRGSRV-PF",
+      "RSD_BLD-XXX_NRGSRV-RF",
+      "RSD_BLD-XXX_NRGSRV-WS"
+    ],
+    "colorScale": [
+      "#2D974B",
+      "#9E62F4",
+      "#7822C8",
+      "#C07738",
+      "#D89B6F",
+      "#4EB5FF",
+      "#1900FF",
+      "#DE3AAA",
+      "#8E1BA9"
+    ],
+    "unit": "PJ",
+    "maxY": 169,
+    "minY": 0
+  },
+  "RSD_Services_CO2Emissions": {
+    "seriesNames": ["RSD_BLD-XXX_NRGSRV-CK", "RSD_BLD-XXX_NRGSRV-WS"],
+    "colorScale": ["#9E62F4", "#8E1BA9"],
+    "unit": "kt",
+    "maxY": 7421,
+    "minY": 0
+  },
+  "SUP_BIOGAS": {
+    "seriesNames": [
+      "SBIORGAS06",
+      "SBIORGAS01",
+      "SBIORGAS05",
+      "SBIORGAS03",
+      "SBIORGAS02"
+    ],
+    "colorScale": ["#BA2376", "#F63ACD", "#AD6978", "#311C7E", "#E688AE"],
+    "unit": "PJ",
+    "maxY": 29,
+    "minY": 0
+  },
+  "SYS_FEC_Fuel": {
+    "seriesNames": [
+      "SEAI_BIOENERGY",
+      "SEAI_COAL",
+      "SEAI_ELECTRICITY",
+      "SEAI_HEAT",
+      "SEAI_NATGAS",
+      "SEAI_OIL",
+      "SEAI_OTHER_RENEWABLES",
+      "SEAI_PEAT",
+      "SEAI_HYDROGEN"
+    ],
+    "colorScale": [
+      "#18187B",
+      "#6341E2",
+      "#528B54",
+      "#471D27",
+      "#B0D2B1",
+      "#902FFE",
+      "#333EE6",
+      "#6EB343",
+      "#08F68A"
+    ],
+    "unit": "PJ",
+    "maxY": 638,
+    "minY": 0
+  },
+  "SYS_NRG-Import": {
+    "seriesNames": [
+      "SEAI_BIOENERGY",
+      "SEAI_COAL",
+      "SEAI_ELECTRICITY",
+      "SEAI_NATGAS",
+      "SEAI_OIL",
+      "SEAI_HYDROGEN"
+    ],
+    "colorScale": [
+      "#18187B",
+      "#6341E2",
+      "#528B54",
+      "#B0D2B1",
+      "#902FFE",
+      "#08F68A"
+    ],
+    "unit": "PJ",
+    "maxY": 688,
+    "minY": 0
+  },
+  "SYS_NRG-Ind_Supply": {
+    "seriesNames": [
+      "SEAI_BIOENERGY",
+      "SEAI_NATGAS",
+      "SEAI_OTHER_RENEWABLES",
+      "SEAI_PEAT"
+    ],
+    "colorScale": ["#18187B", "#B0D2B1", "#333EE6", "#6EB343"],
+    "unit": "PJ",
+    "maxY": 530,
+    "minY": 0
+  },
+  "SYS_TPED": {
+    "seriesNames": [
+      "SEAI_BIOENERGY",
+      "SEAI_COAL",
+      "SEAI_ELECTRICITY",
+      "SEAI_NATGAS",
+      "SEAI_OIL",
+      "SEAI_OTHER_RENEWABLES",
+      "SEAI_PEAT",
+      "SEAI_HYDROGEN"
+    ],
+    "colorScale": [
+      "#18187B",
+      "#6341E2",
+      "#528B54",
+      "#B0D2B1",
+      "#902FFE",
+      "#333EE6",
+      "#6EB343",
+      "#08F68A"
+    ],
+    "unit": "PJ",
+    "maxY": 760,
+    "minY": -6
+  },
+  "SYS_NRG-Export": {
+    "seriesNames": ["SEAI_ELECTRICITY"],
+    "colorScale": ["#528B54"],
+    "unit": "PJ",
+    "maxY": 6,
+    "minY": 0
+  },
+  "SRV-COM_FEC_WS": {
+    "seriesNames": [
+      "SRVAHT",
+      "SRVBGS",
+      "SRVBIO",
+      "SRVCOA",
+      "SRVELC",
+      "SRVGAS",
+      "SRVOIL",
+      "SRVSOL",
+      "SRVHET",
+      "SRVAHT2"
+    ],
+    "colorScale": [
+      "#C826B7",
+      "#CE72C4",
+      "#BDFAB2",
+      "#BD23C0",
+      "#2A093B",
+      "#79E9B9",
+      "#77587E",
+      "#AEB022",
+      "#C7D8A0",
+      "#849C6E"
+    ],
+    "unit": "PJ",
+    "maxY": 25,
+    "minY": 0
+  },
+  "SRV_FEC": {
+    "seriesNames": [
+      "SRVAHT",
+      "SRVBGS",
+      "SRVBIO",
+      "SRVCOA",
+      "SRVELC",
+      "SRVELC-DC-C",
+      "SRVGAS",
+      "SRVLPG",
+      "SRVOIL",
+      "SRVSOL",
+      "SRVHET",
+      "SRVAHT2"
+    ],
+    "colorScale": [
+      "#C826B7",
+      "#CE72C4",
+      "#BDFAB2",
+      "#BD23C0",
+      "#2A093B",
+      "#19715B",
+      "#79E9B9",
+      "#4ED2FF",
+      "#77587E",
+      "#AEB022",
+      "#C7D8A0",
+      "#849C6E"
+    ],
+    "unit": "PJ",
+    "maxY": 138,
+    "minY": 0
+  },
+  "SRV-PUB_FEC_WS": {
+    "seriesNames": [
+      "SRVBGS",
+      "SRVBIO",
+      "SRVELC",
+      "SRVGAS",
+      "SRVOIL",
+      "SRVAHT",
+      "SRVHET",
+      "SRVSOL",
+      "SRVAHT2"
+    ],
+    "colorScale": [
+      "#CE72C4",
+      "#BDFAB2",
+      "#2A093B",
+      "#79E9B9",
+      "#77587E",
+      "#C826B7",
+      "#C7D8A0",
+      "#AEB022",
+      "#849C6E"
+    ],
+    "unit": "PJ",
+    "maxY": 23,
+    "minY": 0
+  },
+  "SRV_FEC_COK": {
+    "seriesNames": ["SRVELC", "SRVGAS", "SRVLPG"],
+    "colorScale": ["#2A093B", "#79E9B9", "#4ED2FF"],
+    "unit": "PJ",
+    "maxY": 34,
+    "minY": 0
+  },
+  "SRV_FEC_DCs": {
+    "seriesNames": ["SRVELC", "SRVELC-DC-C"],
+    "colorScale": ["#2A093B", "#19715B"],
+    "unit": "PJ",
+    "maxY": 40,
+    "minY": 0
+  },
+  "SRV-DCs_EH": {
+    "seriesNames": ["SRVHET-DC-LT"],
+    "colorScale": ["#060AF8"],
+    "unit": "PJ",
+    "maxY": 24,
+    "minY": 0
+  },
+  "TRA_FEC": {
+    "seriesNames": [
+      "TRABDL",
+      "TRACNG",
+      "TRADST",
+      "TRAELC",
+      "TRAETH",
+      "TRAGSL",
+      "TRAKER",
+      "TRABJK",
+      "TRABNG",
+      "TRALNG",
+      "TRAH2"
+    ],
+    "colorScale": [
+      "#ADD682",
+      "#EABD10",
+      "#C76AC0",
+      "#19487E",
+      "#23B290",
+      "#EE5257",
+      "#637093",
+      "#322776",
+      "#06422C",
+      "#E2A0C9",
+      "#F8D06F"
+    ],
+    "unit": "PJ",
+    "maxY": 240,
+    "minY": 0
+  },
+  "TRA_Freight_Land_FuelCons": {
+    "seriesNames": [
+      "TRABDL",
+      "TRADST",
+      "TRAELC",
+      "TRAETH",
+      "TRAGSL",
+      "TRABNG",
+      "TRACNG",
+      "TRALNG",
+      "TRAH2"
+    ],
+    "colorScale": [
+      "#ADD682",
+      "#C76AC0",
+      "#19487E",
+      "#23B290",
+      "#EE5257",
+      "#06422C",
+      "#EABD10",
+      "#E2A0C9",
+      "#F8D06F"
+    ],
+    "unit": "PJ",
+    "maxY": 75,
+    "minY": 0
+  },
+  "TRA_OTH_FuelCons": {
+    "seriesNames": ["TRABDL", "TRACNG", "TRADST", "TRAETH", "TRAGSL"],
+    "colorScale": ["#ADD682", "#EABD10", "#C76AC0", "#23B290", "#EE5257"],
+    "unit": "PJ",
+    "maxY": 22,
+    "minY": 0
+  },
+  "TRA_Passenger_Land_FuelCons": {
+    "seriesNames": [
+      "TRABDL",
+      "TRACNG",
+      "TRADST",
+      "TRAELC",
+      "TRAETH",
+      "TRAGSL",
+      "TRABNG",
+      "TRAH2"
+    ],
+    "colorScale": [
+      "#ADD682",
+      "#EABD10",
+      "#C76AC0",
+      "#19487E",
+      "#23B290",
+      "#EE5257",
+      "#06422C",
+      "#F8D06F"
+    ],
+    "unit": "PJ",
+    "maxY": 105,
+    "minY": 0
+  },
+  "TRA_TURS_FuelCons": {
+    "seriesNames": ["TRABDL", "TRADST", "TRAELC"],
+    "colorScale": ["#ADD682", "#C76AC0", "#19487E"],
+    "unit": "PJ",
+    "maxY": 11,
+    "minY": 0
+  },
+  "TRA_NAV_FuelCons": {
+    "seriesNames": ["TRADST", "TRABDL"],
+    "colorScale": ["#C76AC0", "#ADD682"],
+    "unit": "PJ",
+    "maxY": 28,
+    "minY": 0
+  },
+  "TRA_AVIDOM_FuelCons": {
+    "seriesNames": ["TRAKER", "TRABJK"],
+    "colorScale": ["#637093", "#322776"],
+    "unit": "PJ",
+    "maxY": 0,
+    "minY": 0
+  },
+  "TRA_AVIINT_FuelCons": {
+    "seriesNames": ["TRAKER"],
+    "colorScale": ["#637093"],
+    "unit": "PJ",
+    "maxY": 57,
+    "minY": 0
+  },
+  "TRA_Passenger_Land_Distance": {
+    "seriesNames": ["TRAPL", "TRAPM", "TRAPS"],
+    "colorScale": ["#1EC952", "#02C644", "#DC4155"],
+    "unit": "Bpkm",
+    "maxY": 105,
+    "minY": 0
+  },
+  "RSD_BLD-N_TYPE": {
+    "seriesNames": ["DMD_RSD-BLD-APT", "DMD_RSD-BLD-ATT", "DMD_RSD-BLD-DET"],
+    "colorScale": ["#2A6451", "#3BCE99", "#108840"],
+    "unit": "kDwellings",
+    "maxY": 98,
+    "minY": 0
+  },
+  "TRA-Land_LumpInv": {
+    "seriesNames": ["DMD_TRA-F-LAND", "DMD_TRA-P-LAND"],
+    "colorScale": ["#0C5871", "#F464BA"],
+    "unit": "MEUR",
+    "maxY": 11352,
+    "minY": 0
+  },
+  "TRA_P-CAR-N_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-P-CAR-ICE",
+      "DMD_TRA-P-CAR-BEV",
+      "DMD_TRA-P-CAR-HEV",
+      "DMD_TRA-P-CAR-PHEV"
+    ],
+    "colorScale": ["#EF8F51", "#D26ECD", "#69597A", "#63955B"],
+    "unit": "kVehicles",
+    "maxY": 387,
+    "minY": 0
+  },
+  "RSD_WS-APT_NCAP": {
+    "seriesNames": [
+      "R-SC_Apt_ELC_N1",
+      "R-SW_Apt_GAS_N1",
+      "R-SW_Apt_ELC_HPN1",
+      "R-SW_Apt_HET_N2",
+      "R-SW_Apt_HET_N1"
+    ],
+    "colorScale": ["#5052B4", "#34ED71", "#946669", "#123163", "#FCD0CD"],
+    "unit": "kUnits",
+    "maxY": 68,
+    "minY": 0
+  },
+  "RSD_WS-ATT_NCAP": {
+    "seriesNames": [
+      "R-SC_Att_ELC_N1",
+      "R-SW_Att_GAS_N1",
+      "R-HC_Att_ELC_HPN2",
+      "R-WH_Att_ELC_N1",
+      "R-SW_Att_GAS_HPN1",
+      "R-SW_Att_ELC_HPN1",
+      "R-SW_Att_GAS_HHPN1",
+      "R-SW_Att_HVO_N1",
+      "R-SH_Att_ELC_N1",
+      "R-SW_Att_HET_N1",
+      "R-SW_Att_HET_N2"
+    ],
+    "colorScale": [
+      "#F7E125",
+      "#CB5837",
+      "#8E2595",
+      "#7383C7",
+      "#8D1C4A",
+      "#3197A1",
+      "#EDE4A7",
+      "#693529",
+      "#592D60",
+      "#98BBC5",
+      "#0361B8"
+    ],
+    "unit": "kUnits",
+    "maxY": 172,
+    "minY": 0
+  },
+  "RSD_WS-DET_NCAP": {
+    "seriesNames": [
+      "R-SC_Det_ELC_N1",
+      "R-SH_Det_FPL_N1",
+      "R-SW_Det_GAS_N1",
+      "R-HC_Det_ELC_HPN2",
+      "R-WH_Det_ELC_N1",
+      "R-SW_Det_GAS_HHPN1",
+      "R-SH_Det_ELC_N1",
+      "R-SW_Det_HET_N1",
+      "R-SW_Det_ELC_HPN1",
+      "R-SW_Det_HET_N2"
+    ],
+    "colorScale": [
+      "#E2DD5C",
+      "#08DBB8",
+      "#98EA40",
+      "#3899E8",
+      "#A841A9",
+      "#4B0F91",
+      "#818962",
+      "#FFC0BE",
+      "#EC3EC0",
+      "#470D26"
+    ],
+    "unit": "kUnits",
+    "maxY": 145,
+    "minY": 0
+  },
+  "TRA_F-HTRUCK-N_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-F-HTRUCK-HEV",
+      "DMD_TRA-F-HTRUCK-ICE",
+      "DMD_TRA-F-HTRUCK-BEV",
+      "DMD_TRA-F-HTRUCK-FCV"
+    ],
+    "colorScale": ["#8180EB", "#D33780", "#75181D", "#28058D"],
+    "unit": "kVehicles",
+    "maxY": 8,
+    "minY": 0
+  },
+  "TRA_F-LTRUCK-N_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-F-LTRUCK-BEV",
+      "DMD_TRA-F-LTRUCK-ICE",
+      "DMD_TRA-F-LTRUCK-PHEV",
+      "DMD_TRA-F-LTRUCK-HEV"
+    ],
+    "colorScale": ["#D83056", "#63F497", "#C3CEBE", "#56A1BC"],
+    "unit": "kVehicles",
+    "maxY": 78,
+    "minY": 0
+  },
+  "AGR_CO2N_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "IND_CO2N_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "IND_CO2P_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "PWR_CO2N_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "RSD_CO2_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "SRV_CO2N_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "SYS_CO2Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "TRA_CO2N_Price": {
+    "seriesNames": ["ENV-CO2"],
+    "colorScale": ["#F46A9D"],
+    "unit": "MEUR/kt",
+    "maxY": 2,
+    "minY": 0
+  },
+  "PWR_Cap-N": {
+    "seriesNames": [
+      "PWR-WIN-ON",
+      "PWR-GAS",
+      "PWR-WIN-OF",
+      "PWR-SOL",
+      "PWR-HYD",
+      "PWR-BIO-CCS",
+      "PWR-GAS-CCS",
+      "PWR-OCE",
+      "PWR-H2",
+      "PWR-MSW"
+    ],
+    "colorScale": [
+      "#A6EBAD",
+      "#C2F5B8",
+      "#9CDBD5",
+      "#93DA4B",
+      "#397186",
+      "#20DDE0",
+      "#E00447",
+      "#449D47",
+      "#8696E1",
+      "#FCBF65"
+    ],
+    "unit": "GW",
+    "maxY": 4,
+    "minY": 0
+  },
+  "TRA_FEC-TRABNG_Mode_Detailed": {
+    "seriesNames": ["DMD_TRA-F-HTRUCK", "DMD_TRA-F-MTRUCK", "DMD_TRA-P-BUS"],
+    "colorScale": ["#628307", "#43B4D2", "#B4D24C"],
+    "unit": "PJ",
+    "maxY": 17,
+    "minY": 0
+  },
+  "TRA_F-MTRUCK-N_TYPE": {
+    "seriesNames": [
+      "DMD_TRA-F-MTRUCK-HEV",
+      "DMD_TRA-F-MTRUCK-ICE",
+      "DMD_TRA-F-MTRUCK-BEV",
+      "DMD_TRA-F-MTRUCK-FCV"
+    ],
+    "colorScale": ["#573396", "#A38604", "#A6DF18", "#0CD9F9"],
+    "unit": "kVehicles",
+    "maxY": 5,
+    "minY": 0
+  },
+  "TRA_FEC-TRABJK_Mode_Detailed": {
+    "seriesNames": ["DMD_TRA-R-AVIDOM"],
+    "colorScale": ["#A1ECAD"],
+    "unit": "PJ",
+    "maxY": 0,
+    "minY": 0
+  },
+  "SYS_DACS": {
+    "seriesNames": [
+      "SRVCO2N",
+      "TRACO2N",
+      "RSDCO2",
+      "INDCO2N",
+      "PWRCO2N",
+      "AGRCO2N",
+      "INDCO2P"
+    ],
+    "colorScale": [
+      "#86AC0F",
+      "#D99C2B",
+      "#39A838",
+      "#A7398C",
+      "#E4592B",
+      "#ECDEB1",
+      "#6C104C"
+    ],
+    "unit": "kt",
+    "maxY": 13302,
+    "minY": 0
+  },
+  "SRV-DCs_EH_DH-Grid": {
+    "seriesNames": ["HETC"],
+    "colorScale": ["#9C427F"],
+    "unit": "PJ",
+    "maxY": 5,
+    "minY": 0
+  },
+  "RSD_RTFT-ATT_NCAP": {
+    "seriesNames": ["R-RTFT-Att_Shallow", "R-RTFT-Att_Deep"],
+    "colorScale": ["#466774", "#486B0D"],
+    "unit": "kUnits",
+    "maxY": 124,
+    "minY": 0
+  },
+  "RSD_RTFT-DET_NCAP": {
+    "seriesNames": ["R-RTFT-Det_Deep", "R-RTFT-Det_Shallow"],
+    "colorScale": ["#486B0D", "#466774"],
+    "unit": "kUnits",
+    "maxY": 146,
+    "minY": 0
+  },
+  "RSD_RTFT_NRG_SAVINGS": {
+    "seriesNames": ["RSDSH_Att", "RSDSH_Det"],
+    "colorScale": ["#12C557", "#ED8E69"],
+    "unit": "PJ",
+    "maxY": 8,
+    "minY": 0
+  },
+  "SYS_FEC-H2_Sector": {
+    "seriesNames": ["FT_IND", "FT_TRA"],
+    "colorScale": ["#A7398C", "#D99C2B"],
+    "unit": "PJ",
+    "maxY": 59,
+    "minY": 0
+  },
+  "SUP_HYDROGEN": {
+    "seriesNames": ["SH2PDELC_01", "SH2PCELC_01"],
+    "colorScale": ["#02D57C", "#7ACE1A"],
+    "unit": "PJ",
+    "maxY": 33,
+    "minY": 0
+  }
+}

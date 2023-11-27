@@ -37,6 +37,7 @@ function Chart(props) {
     chartWidth,
     padding,
     barWidth,
+    dataDownload,
     widthScaling
   } = props;
 
@@ -108,6 +109,20 @@ function Chart(props) {
     }, 0);
   };
 
+  var chartDataURL = // used to identify which dataset is associated with each table, by the data downloader
+    "/chartdata/" +
+    encodeURIComponent(chartName) +
+    "/" +
+    encodeURIComponent(selectedScenarios[0]);
+
+  if (selectedScenarios[1]) {
+    chartDataURL += "/" + encodeURIComponent(selectedScenarios[1]);
+    if (showDifference) {
+      chartDataURL += "/diff";
+    }
+  }
+  cache.current[chartDataURL] = chartData;
+
   return (
     <>
       <VictoryChart
@@ -117,6 +132,7 @@ function Chart(props) {
         width={chartWidth}
         containerComponent={
           <VictoryContainer
+            data-chart={dataDownload && chartDataURL}
             style={{
               touchAction: "auto"
             }}
