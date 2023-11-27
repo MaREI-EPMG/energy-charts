@@ -1,0 +1,141 @@
+[
+  {
+    "name": "No_Mitigation",
+    "variants": [{ "name": "No_Mitigation", "specs": null }]
+  },
+  {
+    "name": "Mitigation_Baseline",
+    "variants": [{ "name": "Mitigation_Baseline", "specs": null }]
+  },
+  {
+    "name": "Mitigation_Electrification",
+    "variants": [{ "name": "Mitigation_Electrification", "specs": null }]
+  },
+  {
+    "name": "Mitigation_SectoralCBs",
+    "variants": [{ "name": "Mitigation_SectoralCBs", "specs": null }]
+  },
+  {
+    "name": "Mitigation_ReducedSectoralCBs",
+    "variants": [{ "name": "Mitigation_ReducedSectoralCBs", "specs": null }]
+  },
+  {
+    "name": "Mitigation_CarbonBudget",
+    "variants": [{ "name": "Mitigation_CarbonBudget", "specs": null }]
+  },
+  {
+    "name": "Mitigation_ReducedCarbonBudget",
+    "variants": [{ "name": "Mitigation_ReducedCarbonBudget", "specs": null }]
+  },
+  {
+    "name": "Mitigation_SectoralCBs-TechOptimism",
+    "variants": [
+      { "name": "Mitigation_SectoralCBs-TechOptimism", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_ReducedSectoralCBs-TechOptimism",
+    "variants": [
+      { "name": "Mitigation_ReducedSectoralCBs-TechOptimism", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_CarbonBudget-TechOptimism",
+    "variants": [
+      { "name": "Mitigation_CarbonBudget-TechOptimism", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_ReducedCarbonBudget-TechOptimism",
+    "variants": [
+      { "name": "Mitigation_ReducedCarbonBudget-TechOptimism", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_SectoralCBs-LED_Halfway",
+    "variants": [
+      { "name": "Mitigation_SectoralCBs-LED_Halfway", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_ReducedSectoralCBs-LED_Halfway",
+    "variants": [
+      { "name": "Mitigation_ReducedSectoralCBs-LED_Halfway", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_CarbonBudget-LED_Halfway",
+    "variants": [
+      { "name": "Mitigation_CarbonBudget-LED_Halfway", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_ReducedCarbonBudget-LED_Halfway",
+    "variants": [
+      { "name": "Mitigation_ReducedCarbonBudget-LED_Halfway", "specs": null }
+    ]
+  },
+  {
+    "name": "Mitigation_SectoralCBs-LED_Halfway-TechOptimism",
+    "variants": [
+      {
+        "name": "Mitigation_SectoralCBs-LED_Halfway-TechOptimism",
+        "specs": null
+      }
+    ]
+  },
+  {
+    "name": "Mitigation_ReducedSectoralCBs-LED_Halfway-TechOptimism",
+    "variants": [
+      {
+        "name": "Mitigation_ReducedSectoralCBs-LED_Halfway-TechOptimism",
+        "specs": null
+      }
+    ]
+  },
+  {
+    "name": "Mitigation_CarbonBudget-LED_Halfway-TechOptimism",
+    "variants": [
+      {
+        "name": "Mitigation_CarbonBudget-LED_Halfway-TechOptimism",
+        "specs": null
+      }
+    ]
+  },
+  {
+    "name": "Mitigation_15y_sectoral",
+    "variants": [
+      {
+        "name": "Mitigation_15y_sectoral",
+        "specs": null
+      }
+    ]
+  },
+  {
+    "name": "Mitigation_15ySectoral_noCCS",
+    "variants": [
+      {
+        "name": "Mitigation_15ySectoral_noCCS",
+        "specs": null
+      }
+    ]
+  },
+  {
+    "name": "Mitigation_15y_v3_noCCS",
+    "variants": [
+      {
+        "name": "Mitigation_15y_v3_noCCS",
+        "specs": null
+      }
+    ]
+  },    
+  {
+    "name": "Mitigation_ReducedCarbonBudget-LED_Halfway-TechOptimism",
+    "variants": [
+      {
+        "name": "Mitigation_ReducedCarbonBudget-LED_Halfway-TechOptimism",
+        "specs": null
+      }
+    ]
+  }
+]

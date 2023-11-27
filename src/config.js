@@ -48,7 +48,7 @@ const config = {
     { to: "/charts", text: "Charts" }
   ],
   headerNavBrand: {
-    brand: "Energy Charts",
+    brand: "MAREI-EPMG TIM Scenarios",
     to: "/"
   },
   stackbarOffset: 5, // when comparing scenarios, this is the width that the bar for the compared scenario is offset by
