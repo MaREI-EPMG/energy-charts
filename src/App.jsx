@@ -6,7 +6,6 @@ import { PageLoading, ChartsPage, Charts, Page } from "./components";
 
 function App({ config }) {
   const [searchParams, setSearchParams] = useSearchParams();
-  const dataDownload = config.dataDownload;
   const showSearchParams = config.showSearchParams;
 
   const scenarioGroups = config.scenarios.map(
@@ -134,7 +133,6 @@ function App({ config }) {
                       stackbarOffset={config.stackbarOffset}
                       padding={config.chartPadding}
                       barWidth={config.barWidth}
-                      dataDownload={dataDownload}
                       {...titles}
                     />
                   )
@@ -173,7 +171,6 @@ function App({ config }) {
                               stackbarOffset={config.stackbarOffset}
                               padding={config.chartPadding}
                               barWidth={config.barWidth}
-                              dataDownload={dataDownload}
                               {...titles}
                             />
                           )
