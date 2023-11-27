@@ -1,88 +1,48 @@
-import chartsInfo from "./specs/chartsInfo";
-import chartsTitles from "./specs/chartsTitles";
-import seriesTitles from "./specs/seriesTitles";
-import scenarioTitles from "./specs/scenarioTitles";
+import chartsInfo from "./specs/chartsInfo.json";
+import chartsTitles from "./specs/chartsTitles.json";
+import seriesTitles from "./specs/seriesTitles.json";
+import scenarioTitles from "./specs/scenarioTitles.json";
+import contentNavs from "./specs/contentNavs.json";
+import scenarios from "./specs/scenarios.json";
+import routes from "./specs/routes.json";
+
+let years1 = Array(31)
+  .fill(0)
+  .map((e, i) => i + 2020); // 2020, 2021, 2022 ... 2050
+
+let years2 = Array(7)
+  .fill(0)
+  .map((e, i) => i * 5 + 2020); // 2020, 2025, 2030, ... 2050
 
 const config = {
   chartsInfo: chartsInfo,
   chartsPath: "charts/*",
-  
+
   // dataDownload adds a link to chart cards to enable the viewer to
   //    download the data used to make the chart
-  dataDownload: false,
-  
+  dataDownload: true,
+
   demo: true,
 
-  // fixedDomain fixes the Y-axis for each chart (no auto-scaling).
-  //     You will need to provide MinY & MinY in chartsInfo
-  fixedDomain: true,
+  // fixedDomain, if true, fixes the Y-axis scall across all charts.
+  //    i.e. only the show-differences chart is auto-scaled
+  //    You will need to provide MinY & MinY for each chart, in chartsInfo
+  fixedDomain: false,
 
   // showSearchParams adds the scenario(s) and showDifference flag to
   //    URL, for sharing links to specific charts with other people
-  showSearchParams: false,
-  
+  showSearchParams: true,
+
   titles: {
     charts: chartsTitles,
     series: seriesTitles,
     scenarios: scenarioTitles
   },
-  scenarios: [
-    {
-      name: "Scenario 1",
-      variants: [{ name: "Scenario 1", specs: null }]
-    },
-    {
-      name: "Scenario 2",
-      variants: [{ name: "Scenario 2", specs: null }]
-    },
-    {
-      name: "Scenario 3",
-      variants: [{ name: "Scenario 3", specs: null }]
-    },
-    {
-      name: "Scenario 4",
-      variants: [{ name: "Scenario 4", specs: null }]
-    }
-  ],
-  defaultScenarioGroup: "Scenario 1",
+  scenarios: scenarios,
+  defaultScenarioGroup: [scenarios[0].name],
   landingPage: "about",
-  routes: [
-    {
-      path: "group1",
-      routes: [
-        {
-          path: "subgroup1",
-          charts: ["chart 1", "chart 2", "chart 3", "chart 4"]
-        },
-        {
-          path: "subgroup2",
-          charts: ["chart 1", "chart 4", "chart 3", "chart 2"]
-        }
-      ]
-    },
-    {
-      path: "group2",
-      charts: ["chart 1", "chart 2", "chart 3", "chart 4"]
-    }
-  ],
-  contentNavs: [
-    {
-      path: "*",
-      links: [
-        { to: "group1", text: "Group 1" },
-        { to: "group2", text: "Group 2" }
-      ],
-      variant: "tabs"
-    },
-    {
-      path: "group1/*",
-      links: [
-        { to: "subgroup1", text: "Subgroup 1" },
-        { to: "subgroup2", text: "Subgroup 2" }
-      ],
-      variant: "underscore"
-    }
-  ],
+  routes: routes,
+  contentNavs: contentNavs,
   headerNavLinks: [
     { to: "/about", text: "About" },
     { to: "/charts", text: "Charts" }
@@ -90,7 +50,11 @@ const config = {
   headerNavBrand: {
     brand: "Energy Charts",
     to: "/"
-  }
+  },
+  stackbarOffset: 5, // when comparing scenarios, this is the width that the bar for the compared scenario is offset by
+  xDomainPadding: 10, // spacing between end bars and ends of axes
+  xGridMarks: years2, // labels on chart - aka the *major* grid in Excel
+  xGridValues: years1 // a barstack for each value
 };
 
 export { config as default };
