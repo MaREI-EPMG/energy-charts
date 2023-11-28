@@ -1,0 +1,28 @@
+{
+  "name": "Mitigation_CarbonBudget",
+  "data": [
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [
+        [2021, 776.718054701709],
+        [2030, 865.19264132135]
+      ]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [[2021, 747.020041276713]]
+    },
+    {
+      "seriesName": "AGRCO2N",
+      "seriesValues": [[2030, 351.06976678248]]
+    },
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [[2030, 534.719934118962]]
+    },
+    {
+      "seriesName": "RSDCO2",
+      "seriesValues": [[2030, 3690.58736506135]]
+    }
+  ]
+}

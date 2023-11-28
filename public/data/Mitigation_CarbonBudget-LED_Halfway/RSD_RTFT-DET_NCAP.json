@@ -1,0 +1,14 @@
+{
+  "name": "Mitigation_CarbonBudget-LED_Halfway",
+  "data": [
+    {
+      "seriesName": "R-RTFT-Det_Shallow",
+      "seriesValues": [
+        [2041, 0.385460669347367],
+        [2042, 0.385460669347381],
+        [2043, 0.38546066934741],
+        [2044, 0.385460669347395]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mitigation_Baseline",
+  "data": [
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [[2021, 776.718054701709]]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [
+        [2021, 747.020041276713],
+        [2030, 3020.22272487343]
+      ]
+    },
+    {
+      "seriesName": "RSDCO2",
+      "seriesValues": [[2026, 605.992609409307]]
+    },
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [[2030, 1214.752749284]]
+    },
+    {
+      "seriesName": "PWRCO2N",
+      "seriesValues": [[2030, 969.215047963233]]
+    }
+  ]
+}

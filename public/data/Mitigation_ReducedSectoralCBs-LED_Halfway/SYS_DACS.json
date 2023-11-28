@@ -1,0 +1,13 @@
+{
+  "name": "Mitigation_ReducedSectoralCBs-LED_Halfway",
+  "data": [
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [[2021, 776.718054701709]]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [[2021, 747.020041276713]]
+    }
+  ]
+}
