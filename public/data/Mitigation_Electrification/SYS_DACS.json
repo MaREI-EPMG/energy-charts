@@ -1,0 +1,17 @@
+{
+  "name": "Mitigation_Electrification",
+  "data": [
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [[2021, 776.718054701709]]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [[2021, 747.020041276713]]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [[2030, 1162.36111569598]]
+    }
+  ]
+}

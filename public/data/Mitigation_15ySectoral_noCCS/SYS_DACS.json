@@ -1,0 +1,45 @@
+{
+  "name": "15y_v4",
+  "data": [
+    {
+      "seriesName": "SRVCO2N",
+      "seriesValues": [
+        [
+          2021,
+          752.00949058517
+        ]
+      ]
+    },
+    {
+      "seriesName": "TRACO2N",
+      "seriesValues": [
+        [
+          2021,
+          623.29184513992
+        ],
+        [
+          2070,
+          2916.86483444787
+        ]
+      ]
+    },
+    {
+      "seriesName": "INDCO2N",
+      "seriesValues": [
+        [
+          2070,
+          644.206845810645
+        ]
+      ]
+    },
+    {
+      "seriesName": "INDCO2P",
+      "seriesValues": [
+        [
+          2070,
+          265.285821761041
+        ]
+      ]
+    }
+  ]
+}
