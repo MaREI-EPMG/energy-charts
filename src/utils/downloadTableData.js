@@ -10,11 +10,13 @@ function downloadTableData(
 ) {
   var dataToFormat = [];
   var columnHeaders = [];
-  var chartDesc = `Downloaded from ${location}\nGenerated at ${when}\n\n`;
+  var chartDesc = `Downloaded from\n${window.location.href}\n`;
   var scenarioHeaders = [];
   var needHeaders = true;
   var scenarioNames = {};
   var allScenarioNames = [];
+
+  chartDesc += location.replaceAll("/", " > ") + `\nGenerated at ${when}\n\n`;
 
   // take the chart data and turn it into a format suitable for formatting as CSV
   for (const scenario of chartData) {
@@ -33,7 +35,11 @@ function downloadTableData(
           scenarioHeaders.push(thisHeader);
         }
       }
-      needHeaders = false;
+      if (needHeaders) {
+        needHeaders = false;
+        chartDesc +=
+          "Table values are calculated as: Scenario 1 - Scenario 2\n";
+      }
     } else {
       scenarioNames.scenario = scenario.name;
       if (needHeaders) {
