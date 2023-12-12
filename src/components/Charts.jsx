@@ -1,8 +1,9 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import { BsTable } from "react-icons/bs";
+
 import { useLocation } from "react-router-dom";
 import { Chart, ChartLegend } from "../components";
+import { DownloadIcon } from "../components";
 import downloadTableData from "../utils/downloadTableData";
 
 function Charts(props) {
@@ -48,6 +49,17 @@ function Charts(props) {
       xs={"auto"}
       className="charts py-2 justify-content-center justify-content-md-start"
     >
+      <p
+        style={{
+          width: "100%"
+        }}
+      >
+        Download data for any chart by clicking on the{" "}
+        <Card.Link>
+          <DownloadIcon />
+        </Card.Link>{" "}
+        in its top-right corner.
+      </p>
       {charts.map(
         (chart, idx) =>
           chartsInfo[chart] && (
@@ -61,7 +73,7 @@ function Charts(props) {
                       className="download-table"
                       title="click to download this table's data"
                     >
-                      <BsTable />
+                      <DownloadIcon />
                     </Card.Link>
                   )}
                 </Card.Header>

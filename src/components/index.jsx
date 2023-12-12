@@ -3,6 +3,7 @@ import Chart from "./Chart";
 import ChartLegend from "./ChartLegend";
 import Charts from "./Charts";
 import ChartsPage from "./ChartsPage";
+import DownloadIcon from "./DownloadIcon";
 import FooterCredits from "./FooterCredits";
 import FooterLogos from "./FooterLogos";
 import EmptyChart from "./EmptyChart";
@@ -25,6 +26,7 @@ export {
   ChartLegend,
   Charts,
   ChartsPage,
+  DownloadIcon,
   FooterCredits,
   FooterLogos,
   EmptyChart,
