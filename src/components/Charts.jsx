@@ -1,7 +1,5 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-
-import { useLocation } from "react-router-dom";
 import { Chart, ChartLegend } from "../components";
 import { DownloadIcon } from "../components";
 import downloadTableData from "../utils/downloadTableData";
@@ -19,7 +17,6 @@ function Charts(props) {
     scenarioTitles
   } = props;
 
-  const location = useLocation();
   const when = Date();
 
   function sendTableData(e, chart) {
@@ -34,14 +31,7 @@ function Charts(props) {
         ? chartsInfo[chart]["unit"]
         : "unit";
 
-    downloadTableData(
-      chartData,
-      chartName,
-      unit,
-      scenarioTitles,
-      location.pathname,
-      when
-    );
+    downloadTableData(chartData, chartName, unit, scenarioTitles, when);
   }
 
   return (
