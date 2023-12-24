@@ -1,7 +1,6 @@
+// contains EPMG customisation
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-
-import { useLocation } from "react-router-dom";
 import { Chart, ChartLegend } from "../components";
 import { DownloadIcon } from "../components";
 import downloadTableData from "../utils/downloadTableData";
@@ -19,7 +18,6 @@ function Charts(props) {
     scenarioTitles
   } = props;
 
-  const location = useLocation();
   const when = Date();
 
   function sendTableData(e, chart) {
@@ -34,14 +32,7 @@ function Charts(props) {
         ? chartsInfo[chart]["unit"]
         : "unit";
 
-    downloadTableData(
-      chartData,
-      chartName,
-      unit,
-      scenarioTitles,
-      location.pathname,
-      when
-    );
+    downloadTableData(chartData, chartName, unit, scenarioTitles, when);
   }
 
   return (
@@ -54,11 +45,15 @@ function Charts(props) {
           width: "100%"
         }}
       >
-        Download data for any chart by clicking on the{" "}
-        <Card.Link>
-          <DownloadIcon />
-        </Card.Link>{" "}
-        in its top-right corner.
+        {dataDownload && (
+          <>
+            Download data for any chart by clicking on the{" "}
+            <Card.Link>
+              <DownloadIcon />
+            </Card.Link>{" "}
+            in its top-right corner.
+          </>
+        )}
       </p>
       {charts.map(
         (chart, idx) =>
@@ -71,7 +66,7 @@ function Charts(props) {
                     <Card.Link
                       onClick={(e) => sendTableData(e, chart)}
                       className="download-table"
-                      title="click to download this table's data"
+                      title="click to download this chart's data table"
                     >
                       <DownloadIcon />
                     </Card.Link>

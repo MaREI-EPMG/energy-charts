@@ -1,13 +1,7 @@
+// contains EPMG customisation
 import { mkConfig, generateCsv, download } from "export-to-csv";
 
-function downloadTableData(
-  chartData,
-  chartName,
-  unit,
-  scenarioTitles,
-  location,
-  when
-) {
+function downloadTableData(chartData, chartName, unit, scenarioTitles, when) {
   var dataToFormat = [];
   var columnHeaders = [];
   var chartDesc = `Downloaded from\n${window.location.href}\n`;
@@ -16,7 +10,9 @@ function downloadTableData(
   var scenarioNames = {};
   var allScenarioNames = [];
 
-  chartDesc += location.replaceAll("/", " > ") + `\nGenerated at ${when}\n\n`;
+  chartDesc +=
+    window.location.pathname.replaceAll("/", " > ") +
+    `\nGenerated at ${when}\n\n`;
 
   // take the chart data and turn it into a format suitable for formatting as CSV
   for (const scenario of chartData) {
