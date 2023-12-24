@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import PropTypes from "prop-types";
 
 function useFetch(url, cache) {
   const [content, setContent] = useState(null);
@@ -21,8 +20,10 @@ function useFetch(url, cache) {
         try {
           const response = await fetch(url);
           let data = null;
-          const contentType = await response.headers.get("content-type");
-          if (contentType.includes("application/json")) {
+          const contentType = response.headers.get("content-type");
+          if (contentType == null) {
+            data = null;
+          } else if (contentType.includes("application/json")) {
             data = await response.json();
           } else if (contentType.includes("markdown")) {
             data = await response.text();
@@ -52,9 +53,5 @@ function useFetch(url, cache) {
 
   return [isFetching, content];
 }
-
-useFetch.propTypes = {
-  url: PropTypes.string.isRequired
-};
 
 export default useFetch;

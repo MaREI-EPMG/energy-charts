@@ -1,3 +1,4 @@
+// contains EPMG customisation
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import { Chart, ChartLegend } from "../components";
@@ -44,11 +45,15 @@ function Charts(props) {
           width: "100%"
         }}
       >
-        Download data for any chart by clicking on the{" "}
-        <Card.Link>
-          <DownloadIcon />
-        </Card.Link>{" "}
-        in its top-right corner.
+        {dataDownload && (
+          <>
+            Download data for any chart by clicking on the{" "}
+            <Card.Link>
+              <DownloadIcon />
+            </Card.Link>{" "}
+            in its top-right corner.
+          </>
+        )}
       </p>
       {charts.map(
         (chart, idx) =>
@@ -61,7 +66,7 @@ function Charts(props) {
                     <Card.Link
                       onClick={(e) => sendTableData(e, chart)}
                       className="download-table"
-                      title="click to download this table's data"
+                      title="click to download this chart's data table"
                     >
                       <DownloadIcon />
                     </Card.Link>
