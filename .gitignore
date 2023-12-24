@@ -1,12 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 #source
-# /src
-# /test
-# /index.html
-# /.prettierrc
-# /.eslintrc
-# /vite.config.js
+/src
+/test
+/index.html
+/.prettierrc
+/.eslintrc
+/vite.config.js
 
 # dependencies
 /node_modules
