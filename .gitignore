@@ -2,11 +2,12 @@
 
 #source
 /src
-/test
+/tests
 /index.html
 /.prettierrc
 /.eslintrc
 /vite.config.js
+/public
 
 # dependencies
 /node_modules
